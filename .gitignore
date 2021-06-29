@@ -1,3 +1,8 @@
 
 *.nii
 *.nrrd
+*.v2
+Pix2Pix/training_checkpoints/checkpoint
+Pix2Pix/training_checkpoints/ckpt-31.data-00000-of-00001
+Pix2Pix/training_checkpoints/ckpt-31.index
+Pix2Pix/.ipynb_checkpoints/Pix2Pix-checkpoint.ipynb
