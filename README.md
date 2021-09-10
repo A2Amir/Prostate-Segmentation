@@ -21,26 +21,32 @@ In normalising the images, the mean value of all images is subtracted from the s
 ## 3. Data Augmentation
 For the training sample, we rotated the data by 90◦ , flipped it horizontally and flipped it vertically. 
 
-[1]: Klein, S.; Staring, M. Elastix: A toolbox for intensity-based medical image registration. IEEE Trans. Med. Imaging 2010, 29, 196–205.
-[CrossRef] [PubMed]
+## 4.Loss Function:
 
-## 3.Loss Function:
-
-### 3.1 Generator loss
+### 4.1 Generator loss
 
    * It is a sigmoid cross entropy loss of the generated images and an array of ones.
    * The paper also includes L1 loss which is MAE (mean absolute error) between the generated image and the target image.
    * This allows the generated image to become structurally similar to the target image.
    * The formula to calculate the total generator loss = gan_loss + LAMBDA * l1_loss, where LAMBDA = 100. This value was decided by the authors of the paper.
 
-### 3.2 Discriminator loss
+### 4.2 Discriminator loss
 
    * The discriminator loss function takes 2 inputs; real images, generated images
    * real_loss is a sigmoid cross entropy loss of the real images and an array of ones(since these are the real images)
    * generated_loss is a sigmoid cross entropy loss of the generated images and an array of zeros(since these are the fake images)
    * Then the total_loss is the sum of real_loss and the generated_loss
 
-## 3. Training
+## 4. Training
 
 The Pix2Pix model was implemented with with TensorFlow (v. 2.4) by using Python (v. 3.8). I used a Adam optimizer to update the weights with an initial learning rate of 2e-4 and a batch size of 1. Training with 300 epochs usually achieved the lowest loss and therefore was employed in my experiments. 
+ 
+ ## 4. Evaluation
+ 
+ One result obtained on the trained Model with test dataset is presented below:
+ 
+![grafik](./imgs/2.PNG)
 
+
+[1]: Klein, S.; Staring, M. Elastix: A toolbox for intensity-based medical image registration. IEEE Trans. Med. Imaging 2010, 29, 196–205.
+[CrossRef] [PubMed]
