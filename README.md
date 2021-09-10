@@ -1,5 +1,5 @@
 # Prostate-Segmentation
-Magnetic resonance imaging (MRI) produces detailed anatomical images of the prostate and its areas. It plays a crucial role in many diagnostic applications. Automatic segmentation of prostate and prostate zones from MR images makes many diagnostic and therapeutic applications easier. In this repository, I tried to segment prostate using Pix2Pix network.
+Magnetic resonance imaging (MRI) produces detailed anatomical images of the prostate and its areas. It plays a crucial role in many diagnostic medical applications. Automatic segmentation of prostate and prostate zones from MR images makes many diagnostic and therapeutic applications easier. In this repository, I tried to segment prostate using Pix2Pix network.
 
 #### 1. [Downlaod Dataset Here](https://drive.google.com/file/d/1ow7Ikh7LRSo5C0VEF6qyhRSvZECN6j_1/view?usp=sharing)
 #### 2. [Pix2Pix Network](https://github.com/A2Amir/Prostate-Segmentation/blob/main/Pix2Pix/Pix2Pix.ipynb)
