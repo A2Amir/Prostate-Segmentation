@@ -16,10 +16,10 @@ Two datasets (Train and Test) were created using different the **combinations of
 * Label shape (50, 256, 256, 5)
 
 ## 2. Normalization
-In normalising the images, the mean value of all images is subtracted from the signal intensity of each pixel and the value obtained is divided by the standard deviation.
+In normalising the images, the mean value of all images is subtracted from the signal intensity of each pixel and the value obtained is divided by the standard. deviation.
 
 ## 3. Data Augmentation
-For the training sample, we rotated the data by 90◦ , flipped it horizontally and flipped it vertically. 
+For the training sample, I rotated the data by 90◦ , flipped it horizontally and flipped it vertically. 
 
 ## 4.Loss Function:
 
