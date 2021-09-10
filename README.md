@@ -16,8 +16,8 @@ Two datasets (Train and Test) were created using different the **combinations of
 * Label shape (50, 256, 256, 5)
 
 
-* [Downlaod Dataset Here](https://drive.google.com/file/d/1ow7Ikh7LRSo5C0VEF6qyhRSvZECN6j_1/view?usp=sharing)
-* 
+#### [Downlaod Dataset Here](https://drive.google.com/file/d/1ow7Ikh7LRSo5C0VEF6qyhRSvZECN6j_1/view?usp=sharing)
+
 ## 2. Normalization
 In normalising the images, the mean value of all images is subtracted from the signal intensity of each pixel and the value obtained is divided by the standard. deviation.
 
