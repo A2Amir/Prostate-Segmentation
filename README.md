@@ -7,8 +7,13 @@ Two datasets (Train and Test) were created using different the **combinations of
 ![grafik](./imgs/1.PNG)
 
 
-**Train Dataset Shape: Image Shape: (669, 256, 256, 3), Label shape (669, 256, 256, 5)**
-**Test Dataset Shape: Image Shape: (50, 256, 256, 3), Label shape (50, 256, 256, 5)**
+**Train Dataset Shape:**
+* Image Shape: (669, 256, 256, 3)
+* Label shape (669, 256, 256, 5)
+
+**Test Dataset Shape:**
+* Image Shape: (50, 256, 256, 3)
+* Label shape (50, 256, 256, 5)
 
 ## 2. Normalization
 In normalising the images, the mean value of all images is subtracted from the signal intensity of each pixel and the value obtained is divided by the standard deviation.
