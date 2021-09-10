@@ -1,5 +1,9 @@
 # Prostate-Segmentation
-Magnetic resonance imaging (MRI) produces detailed anatomical images of the prostate and its areas. It plays a crucial role in many diagnostic applications. Automatic segmentation of prostate and prostate zones from MR images makes many diagnostic and therapeutic applications easier. In this repository, I tried to segment prostate using Pix2Pix network.
+Magnetic resonance imaging (MRI) produces detailed anatomical images of the prostate and its areas. It plays a crucial role in many diagnostic medical applications. Automatic segmentation of prostate and prostate zones from MR images makes many diagnostic and therapeutic applications easier. In this repository, I tried to segment prostate using Pix2Pix network.
+
+#### 1. [Downlaod Dataset Here](https://drive.google.com/file/d/1ow7Ikh7LRSo5C0VEF6qyhRSvZECN6j_1/view?usp=sharing)
+#### 2. [Pix2Pix Network](https://github.com/A2Amir/Prostate-Segmentation/blob/main/Pix2Pix/Pix2Pix.ipynb)
+
 
 ## 1. Datasets 
 Two datasets (Train and Test) were created using different the **combinations of images, including T2-Weighted (T2W) images, Diffusion-Weighted Images (DWI) and Apparent Diffusion Coefficient (ADC) images**. To merge and aligne the DWI, ADC and T2W images, I used an established registration toolbox for transformation [1].
@@ -14,6 +18,8 @@ Two datasets (Train and Test) were created using different the **combinations of
 **Test Dataset Shape:**
 * Image Shape: (50, 256, 256, 3)
 * Label shape (50, 256, 256, 5)
+
+
 
 ## 2. Normalization
 In normalising the images, the mean value of all images is subtracted from the signal intensity of each pixel and the value obtained is divided by the standard. deviation.
