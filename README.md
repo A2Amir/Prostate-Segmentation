@@ -48,7 +48,7 @@ For the training sample, I rotated the data by 90◦ , flipped it horizontally a
 The Pix2Pix model was implemented with with TensorFlow (v. 2.4) by using Python (v. 3.8). I used a Adam optimizer to update the weights with an initial learning rate of 2e-4 and a batch size of 1. Training with 300 epochs usually achieved the lowest loss and therefore was employed in my experiments. 
  
  ## 4. Evaluation
-  below is presented a result of the test dataset on the trained model:
+  Below is presented a result of the test dataset on the trained model:
  
 ![grafik](./imgs/2.PNG)
 
